@@ -22,12 +22,12 @@
                     <div class="container-fluid">
                         
                         <a class="brand" href="<?php echo base_url();?>">
-                            <?php echo $system_name;?>
+                            <?php echo $system_name." - CENTRO TECNOLÓGICO BRASILEIRO";?>
                         </a>
                         
                         <ul class="nav pull-right">
                             <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Select Language <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Selecione o Idioma <b class="caret"></b></a>
                             <!-- Language Selector -->
                                 <ul class="dropdown-menu">
                                     <?php
@@ -188,7 +188,7 @@
                         <hr />
                         <div style="color:#a5a5a5;">
                         	
-                        		<center>&copy; 2013, School Manager Pro
+                        		<center>&copy; 2015, iSchool - ERP
                         		</center>
                             
                         </div>
@@ -217,7 +217,7 @@
             <?php echo form_close();?>
           </div>
           <div class="modal-footer">
-            <button class="btn btn-default" data-dismiss="modal">Close</button>
+            <button class="btn btn-default" data-dismiss="modal">Fechar</button>
           </div>
         </div>
         <!-----------password reset form ------>
